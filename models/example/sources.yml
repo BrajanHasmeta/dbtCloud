@@ -1,0 +1,6 @@
+sources:
+  - name: test # Database name
+    database: TEST_DB
+    schema: BRAJAN # Schema name
+    tables:
+      - name: DBT # Table name

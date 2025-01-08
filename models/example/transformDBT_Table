@@ -1,9 +1,0 @@
-WITH updated_data AS (
-    SELECT 
-        id,
-        NULL AS description -- Set the description column to NULL
-    FROM {{ source('TEST_DB', 'BRAJAN', 'DBT') }} -- Reference the source table
-)
-
-SELECT *
-FROM updated_data;
